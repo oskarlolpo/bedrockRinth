@@ -1,0 +1,1202 @@
+﻿{
+    "app.auth-servers.unreachable.body": {
+        "message": "Серверы аутентификации Minecraft сейчас, кажется, прилегли отдохнуть. Проверь свой интернет (вдруг РКН опять решил что-то заблокировать) и ткни ещё раз."
+    },
+    "app.auth-servers.unreachable.header": {
+        "message": "Нет связи с серверами аутентификации, РКН-пидорасы"
+    },
+    "app.settings.developer-mode-enabled": {
+        "message": "Режим разработчика включён. Чините, починяльщики!"
+    },
+    "app.settings.downloading": {
+        "message": "Качаем версию {version}..."
+    },
+    "app.settings.tabs.appearance": {
+        "message": "Внешний вид"
+    },
+    "app.settings.tabs.default-instance-options": {
+        "message": "Предустановки"
+    },
+    "app.settings.tabs.feature-flags": {
+        "message": "Флаги функций (эксперименты, бля)"
+    },
+    "app.settings.tabs.java-installations": {
+        "message": "Установки хуявы"
+    },
+    "app.settings.tabs.language": {
+        "message": "Язык"
+    },
+    "app.settings.tabs.privacy": {
+        "message": "Конфиденциальность(ненужна нам)"
+    },
+    "app.settings.tabs.resource-management": {
+        "message": "Управление ресурсами"
+    },
+    "app.update-toast.body": {
+        "message": "Версия Modrinth App {version} готова к установке! Перезапусти приложение, или оно само обновится после закрытия."
+    },
+    "app.update-toast.body.download-complete": {
+        "message": "Скачивание версии Modrinth App {version} завершено. Перезапусти, или само позже."
+    },
+    "app.update-toast.body.metered": {
+        "message": "Версия Modrinth App {version} доступна! Но у тебя лимитный тариф, поэтому качать не стали, мало ли..."
+    },
+    "app.update-toast.changelog": {
+        "message": "Список изменений"
+    },
+    "app.update-toast.download": {
+        "message": "Скачать ({size})"
+    },
+    "app.update-toast.downloading": {
+        "message": "Скачивается..."
+    },
+    "app.update-toast.reload": {
+        "message": "Перезапустить"
+    },
+    "app.update-toast.title": {
+        "message": "Доступно обновление"
+    },
+    "app.update-toast.title.download-complete": {
+        "message": "Скачивание завершено"
+    },
+    "app.update.complete-toast.text": {
+        "message": "Нажми сюда, чтобы глянуть изменения."
+    },
+    "app.update.complete-toast.title": {
+        "message": "Версия {version} успешно установлена!"
+    },
+    "app.update.download-update": {
+        "message": "Скачать обновление"
+    },
+    "app.update.downloading-update": {
+        "message": "Скачивание обновления ({percent}%)"
+    },
+    "app.update.reload-to-update": {
+        "message": "Перезапустить и обновить"
+    },
+    "friends.action.add-friend": {
+        "message": "Добавить в друзья"
+    },
+    "friends.action.view-friend-requests": {
+        "message": "{count} {count, plural, one {запрос} few {запроса} many {запросов} other {запроса}} дружбы"
+    },
+    "friends.add-friend.submit": {
+        "message": "Отправить запрос дружбы"
+    },
+    "friends.add-friend.title": {
+        "message": "Добавление в друзья"
+    },
+    "friends.add-friend.username.description": {
+        "message": "Оно может быть не таким, как в Minecraft! (тут своя атмосфера)"
+    },
+    "friends.add-friend.username.placeholder": {
+        "message": "Введи имя на Modrinth..."
+    },
+    "friends.add-friend.username.title": {
+        "message": "Какое имя у друга на Modrinth?"
+    },
+    "friends.add-friends-to-share": {
+        "message": "\u003clink\u003eДобавьте друзей\u003c/link\u003e, чтобы видеть их статус игры!"
+    },
+    "friends.friend.cancel-request": {
+        "message": "Отменить запрос"
+    },
+    "friends.friend.remove-friend": {
+        "message": "Удалить из друзей"
+    },
+    "friends.friend.request-sent": {
+        "message": "Запрос отправлен"
+    },
+    "friends.friend.view-profile": {
+        "message": "Открыть профиль"
+    },
+    "friends.heading": {
+        "message": "Друзья"
+    },
+    "friends.heading.active": {
+        "message": "В игре (рубятся)"
+    },
+    "friends.heading.offline": {
+        "message": "Не в сети (спят или бухают)"
+    },
+    "friends.heading.online": {
+        "message": "В сети (тут как тут)"
+    },
+    "friends.heading.pending": {
+        "message": "В ожидании"
+    },
+    "friends.no-friends-match": {
+        "message": "Нет друзей по запросу «{query}»"
+    },
+    "friends.search-friends-placeholder": {
+        "message": "Поиск по друзьям..."
+    },
+    "friends.section.heading": {
+        "message": "{title} — {count}"
+    },
+    "friends.sign-in-to-add-friends": {
+        "message": "\u003clink\u003eВойди в Modrinth\u003c/link\u003e, чтобы добавлять друзей и знать, во что они играют (и подкалывать потом)."
+    },
+    "instance.add-server.add-and-play": {
+        "message": "Добавить и играть"
+    },
+    "instance.add-server.add-server": {
+        "message": "Добавить сервер"
+    },
+    "instance.add-server.resource-pack.disabled": {
+        "message": "Отключён"
+    },
+    "instance.add-server.resource-pack.enabled": {
+        "message": "Включён"
+    },
+    "instance.add-server.resource-pack.prompt": {
+        "message": "Спрашивать"
+    },
+    "instance.add-server.title": {
+        "message": "Добавление сервера"
+    },
+    "instance.edit-server.title": {
+        "message": "Настройка сервера"
+    },
+    "instance.edit-world.hide-from-home": {
+        "message": "Не показывать на главной"
+    },
+    "instance.edit-world.name": {
+        "message": "Название"
+    },
+    "instance.edit-world.placeholder-name": {
+        "message": "Мой уютный мирок"
+    },
+    "instance.edit-world.reset-icon": {
+        "message": "Сбросить иконку"
+    },
+    "instance.edit-world.title": {
+        "message": "Настройка мира"
+    },
+    "instance.filter.disabled": {
+        "message": "Отключённые проекты"
+    },
+    "instance.filter.updates-available": {
+        "message": "Доступны обновления"
+    },
+    "instance.server-modal.address": {
+        "message": "Адрес"
+    },
+    "instance.server-modal.name": {
+        "message": "Название"
+    },
+    "instance.server-modal.placeholder-name": {
+        "message": "Мой любимый сервак"
+    },
+    "instance.server-modal.resource-pack": {
+        "message": "Набор ресурсов"
+    },
+    "instance.settings.tabs.general": {
+        "message": "Основные"
+    },
+    "instance.settings.tabs.general.delete": {
+        "message": "Удаление сборки"
+    },
+    "instance.settings.tabs.general.delete.button": {
+        "message": "Удалить сборку"
+    },
+    "instance.settings.tabs.general.delete.description": {
+        "message": "Навсегда удаляет сборку с твоего компа, включая миры, настройки и всё-всё. После удаления уже не вернуть, так что подумай хорошенько."
+    },
+    "instance.settings.tabs.general.deleting.button": {
+        "message": "Удаление..."
+    },
+    "instance.settings.tabs.general.duplicate-button": {
+        "message": "Создать копию"
+    },
+    "instance.settings.tabs.general.duplicate-button.tooltip.installing": {
+        "message": "Создание копии невозможно, идёт установка, подожди."
+    },
+    "instance.settings.tabs.general.duplicate-instance": {
+        "message": "Создание копии сборки"
+    },
+    "instance.settings.tabs.general.duplicate-instance.description": {
+        "message": "Создаёт копию сборки со всеми потрохами: миры, моды, настройки — всё переедет."
+    },
+    "instance.settings.tabs.general.edit-icon": {
+        "message": "Изменить иконку"
+    },
+    "instance.settings.tabs.general.edit-icon.remove": {
+        "message": "Удалить иконку"
+    },
+    "instance.settings.tabs.general.edit-icon.replace": {
+        "message": "Заменить иконку"
+    },
+    "instance.settings.tabs.general.edit-icon.select": {
+        "message": "Выбрать иконку"
+    },
+    "instance.settings.tabs.general.library-groups": {
+        "message": "Группировка"
+    },
+    "instance.settings.tabs.general.library-groups.create": {
+        "message": "Создать новую группу"
+    },
+    "instance.settings.tabs.general.library-groups.description": {
+        "message": "Разложи сборки по полочкам, чтобы не было бардака."
+    },
+    "instance.settings.tabs.general.library-groups.enter-name": {
+        "message": "Введите название группы"
+    },
+    "instance.settings.tabs.general.name": {
+        "message": "Название"
+    },
+    "instance.settings.tabs.hooks": {
+        "message": "Команды запуска"
+    },
+    "instance.settings.tabs.hooks.custom-hooks": {
+        "message": "Кастомные команды"
+    },
+    "instance.settings.tabs.hooks.description": {
+        "message": "Для тех, кто шарит: можно задать системные команды, которые выполнятся до и после игры."
+    },
+    "instance.settings.tabs.hooks.post-exit": {
+        "message": "После выхода"
+    },
+    "instance.settings.tabs.hooks.post-exit.description": {
+        "message": "Выполняется после закрытия игры."
+    },
+    "instance.settings.tabs.hooks.post-exit.enter": {
+        "message": "Команда после закрытия..."
+    },
+    "instance.settings.tabs.hooks.pre-launch": {
+        "message": "Перед запуском"
+    },
+    "instance.settings.tabs.hooks.pre-launch.description": {
+        "message": "Выполняется перед стартом игры."
+    },
+    "instance.settings.tabs.hooks.pre-launch.enter": {
+        "message": "Введите команду перед запуском..."
+    },
+    "instance.settings.tabs.hooks.title": {
+        "message": "Команды запуска игры"
+    },
+    "instance.settings.tabs.hooks.wrapper": {
+        "message": "Обёртка"
+    },
+    "instance.settings.tabs.hooks.wrapper.description": {
+        "message": "Команда-обёртка для запуска Minecraft (для особо одарённых)."
+    },
+    "instance.settings.tabs.hooks.wrapper.enter": {
+        "message": "Введите команду-обёртку..."
+    },
+    "instance.settings.tabs.installation": {
+        "message": "Установка"
+    },
+    "instance.settings.tabs.installation.change-version.already-installed.modded": {
+        "message": "{platform} {version} для Minecraft {game_version} уже стоит, хватит дёргать!"
+    },
+    "instance.settings.tabs.installation.change-version.already-installed.vanilla": {
+        "message": "Ванильный Minecraft {game_version} уже есть, расслабь булки."
+    },
+    "instance.settings.tabs.installation.change-version.button": {
+        "message": "Сменить версию"
+    },
+    "instance.settings.tabs.installation.change-version.button.install": {
+        "message": "Установить"
+    },
+    "instance.settings.tabs.installation.change-version.button.installing": {
+        "message": "Установка"
+    },
+    "instance.settings.tabs.installation.change-version.cannot-while-fetching": {
+        "message": "Получаю версии, подожди секунду, не гони."
+    },
+    "instance.settings.tabs.installation.change-version.in-progress": {
+        "message": "Установка новой версии"
+    },
+    "instance.settings.tabs.installation.currently-installed": {
+        "message": "Установлено"
+    },
+    "instance.settings.tabs.installation.debug-information": {
+        "message": "Отладочная информация:"
+    },
+    "instance.settings.tabs.installation.fetching-modpack-details": {
+        "message": "Получаю сведения о сборке"
+    },
+    "instance.settings.tabs.installation.game-version": {
+        "message": "Версия игры"
+    },
+    "instance.settings.tabs.installation.install": {
+        "message": "Установить"
+    },
+    "instance.settings.tabs.installation.install.in-progress": {
+        "message": "Выполняется установка, потерпи."
+    },
+    "instance.settings.tabs.installation.loader-version": {
+        "message": "Версия {loader}"
+    },
+    "instance.settings.tabs.installation.minecraft-version": {
+        "message": "Minecraft {version}"
+    },
+    "instance.settings.tabs.installation.no-connection": {
+        "message": "Не удалось получить данные о сборке. Проверь интернет, может, там проблемы."
+    },
+    "instance.settings.tabs.installation.no-loader-versions": {
+        "message": "{loader} не дружит с Minecraft {version}. Выбери другой загрузчик, этот не подходит."
+    },
+    "instance.settings.tabs.installation.no-modpack-found": {
+        "message": "Не удалось найти сборку на Modrinth, с которой это связано. Магия какая-то."
+    },
+    "instance.settings.tabs.installation.platform": {
+        "message": "Платформа"
+    },
+    "instance.settings.tabs.installation.reinstall.button": {
+        "message": "Переустановить сборку"
+    },
+    "instance.settings.tabs.installation.reinstall.button.reinstalling": {
+        "message": "Переустановка"
+    },
+    "instance.settings.tabs.installation.reinstall.confirm.description": {
+        "message": "Всё, что ты наставил сверху, слетит нахуй. Сборка вернётся к заводским настройкам. Миры могут сломаться, если моды были критичны."
+    },
+    "instance.settings.tabs.installation.reinstall.confirm.title": {
+        "message": "Точно хочешь переустановить сборку и всё сбросить?"
+    },
+    "instance.settings.tabs.installation.reinstall.description": {
+        "message": "Возвращает сборку к исходному состоянию, удаляя всё, что добавлено поверх оригинальной сборки."
+    },
+    "instance.settings.tabs.installation.reinstall.title": {
+        "message": "Переустановка сборки"
+    },
+    "instance.settings.tabs.installation.repair.button": {
+        "message": "Починить"
+    },
+    "instance.settings.tabs.installation.repair.button.repairing": {
+        "message": "Починка"
+    },
+    "instance.settings.tabs.installation.repair.confirm.description": {
+        "message": "Переустановлю зависимости Minecraft и попробую найти битые файлы. Моды это не починит, если они криво написаны, но попытаться стоит."
+    },
+    "instance.settings.tabs.installation.repair.confirm.title": {
+        "message": "Починить сборку?"
+    },
+    "instance.settings.tabs.installation.repair.in-progress": {
+        "message": "Выполняется починка"
+    },
+    "instance.settings.tabs.installation.reset-selections": {
+        "message": "Сбросить выбор"
+    },
+    "instance.settings.tabs.installation.show-all-versions": {
+        "message": "Показывать все версии (даже экспериментальные)"
+    },
+    "instance.settings.tabs.installation.tooltip.action.change-version": {
+        "message": "сменить версию"
+    },
+    "instance.settings.tabs.installation.tooltip.action.install": {
+        "message": "установить"
+    },
+    "instance.settings.tabs.installation.tooltip.action.reinstall": {
+        "message": "переустановить"
+    },
+    "instance.settings.tabs.installation.tooltip.action.repair": {
+        "message": "починить"
+    },
+    "instance.settings.tabs.installation.tooltip.cannot-while-installing": {
+        "message": "Нельзя {action} во время установки, подожди."
+    },
+    "instance.settings.tabs.installation.tooltip.cannot-while-offline": {
+        "message": "Не могу {action} без интернета. Ты где там?"
+    },
+    "instance.settings.tabs.installation.tooltip.cannot-while-repairing": {
+        "message": "Не выйдет {action} пока чиним."
+    },
+    "instance.settings.tabs.installation.unknown-version": {
+        "message": "(неизвестная версия)"
+    },
+    "instance.settings.tabs.installation.unlink.button": {
+        "message": "Отвязать от модпака"
+    },
+    "instance.settings.tabs.installation.unlink.confirm.description": {
+        "message": "Если продолжишь, обратного пути не будет. Сборка станет локальной и потеряет обновления. Точно надо?"
+    },
+    "instance.settings.tabs.installation.unlink.confirm.title": {
+        "message": "Точно отвязать сборку?"
+    },
+    "instance.settings.tabs.installation.unlink.description": {
+        "message": "Эта сборка привязана к модпаку на Modrinth, поэтому версии руками менять нельзя. Кнопка снизу навсегда разорвёт эту связь."
+    },
+    "instance.settings.tabs.installation.unlink.title": {
+        "message": "Отвязка от модпака"
+    },
+    "instance.settings.tabs.java": {
+        "message": "Java и память"
+    },
+    "instance.settings.tabs.java.environment-variables": {
+        "message": "Переменные среды"
+    },
+    "instance.settings.tabs.java.hooks": {
+        "message": "Команды запуска"
+    },
+    "instance.settings.tabs.java.java-arguments": {
+        "message": "Аргументы Java"
+    },
+    "instance.settings.tabs.java.java-installation": {
+        "message": "Расположение Java"
+    },
+    "instance.settings.tabs.java.java-memory": {
+        "message": "Выделенная память"
+    },
+    "instance.settings.tabs.window": {
+        "message": "Окно"
+    },
+    "instance.settings.tabs.window.custom-window-settings": {
+        "message": "Настройки окна"
+    },
+    "instance.settings.tabs.window.fullscreen": {
+        "message": "Полноэкранный режим"
+    },
+    "instance.settings.tabs.window.fullscreen.description": {
+        "message": "Запускать игру на полный экран (пропишется в options.txt)."
+    },
+    "instance.settings.tabs.window.height": {
+        "message": "Высота"
+    },
+    "instance.settings.tabs.window.height.description": {
+        "message": "Высота окна игры при запуске."
+    },
+    "instance.settings.tabs.window.height.enter": {
+        "message": "Введите высоту..."
+    },
+    "instance.settings.tabs.window.width": {
+        "message": "Ширина"
+    },
+    "instance.settings.tabs.window.width.description": {
+        "message": "Ширина окна игры при запуске."
+    },
+    "instance.settings.tabs.window.width.enter": {
+        "message": "Введите ширину..."
+    },
+    "instance.settings.title": {
+        "message": "Настройки"
+    },
+    "instance.worlds.a_minecraft_server": {
+        "message": "Сервер Minecraft"
+    },
+    "instance.worlds.cant_connect": {
+        "message": "Не могу подключиться к серверу"
+    },
+    "instance.worlds.copy_address": {
+        "message": "Копировать адрес"
+    },
+    "instance.worlds.dont_show_on_home": {
+        "message": "Не показывать на главной"
+    },
+    "instance.worlds.filter.available": {
+        "message": "Доступно"
+    },
+    "instance.worlds.game_already_open": {
+        "message": "Сборка уже запущена, остынь."
+    },
+    "instance.worlds.hardcore": {
+        "message": "Хардкор (без права на ошибку)"
+    },
+    "instance.worlds.incompatible_server": {
+        "message": "Сервер несовместим"
+    },
+    "instance.worlds.no_contact": {
+        "message": "Не дозвониться до сервера"
+    },
+    "instance.worlds.no_server_quick_play": {
+        "message": "Прыгать сразу на сервер можно только в Minecraft Alpha 1.0.5 и выше. Обнови майн, если хочешь."
+    },
+    "instance.worlds.no_singleplayer_quick_play": {
+        "message": "Загружать миры напрямую можно только с Minecraft 1.20 и выше."
+    },
+    "instance.worlds.play_instance": {
+        "message": "Запустить"
+    },
+    "instance.worlds.type.server": {
+        "message": "Сервер"
+    },
+    "instance.worlds.type.singleplayer": {
+        "message": "Одиночная"
+    },
+    "instance.worlds.view_instance": {
+        "message": "Посмотреть сборку"
+    },
+    "instance.worlds.world_in_use": {
+        "message": "Мир занят, кто-то там уже играет"
+    },
+    "search.filter.locked.instance": {
+        "message": "Управляется сборкой"
+    },
+    "search.filter.locked.instance-game-version.title": {
+        "message": "Версия игры управляется сборкой"
+    },
+    "search.filter.locked.instance-loader.title": {
+        "message": "Загрузчик управляется сборкой"
+    },
+    "search.filter.locked.instance.sync": {
+        "message": "Использовать из сборки"
+    },
+    "app.settings.title": {
+        "message": "Настройки"
+    },
+    "app.settings.appearance.color-theme.title": {
+        "message": "Тема интерфейса"
+    },
+    "app.settings.appearance.color-theme.description": {
+        "message": "Выбери, как будет выглядеть лаунчер. Для настроения."
+    },
+    "app.settings.appearance.accent-color.title": {
+        "message": "Акцентный цвет"
+    },
+    "app.settings.appearance.accent-color.description": {
+        "message": "Выбери основной цвет, чтоб глазу было приятно."
+    },
+    "app.settings.appearance.accent-color.dropdown": {
+        "message": "Выбор цвета"
+    },
+    "app.settings.appearance.advanced-rendering.title": {
+        "message": "Расширенный рендеринг"
+    },
+    "app.settings.appearance.advanced-rendering.description": {
+        "message": "Включает красивости типа размытия. Может подтормаживать на старых компах."
+    },
+    "app.settings.appearance.hide-nametag.title": {
+        "message": "Скрывать никнейм"
+    },
+    "app.settings.appearance.hide-nametag.description": {
+        "message": "Не показывать твой ник на странице скинов."
+    },
+    "app.settings.appearance.native-decorations.title": {
+        "message": "Системное оформление окна"
+    },
+    "app.settings.appearance.native-decorations.description": {
+        "message": "Использовать системную рамку окна. Лаунчер перезапустится."
+    },
+    "app.settings.appearance.minimize-launcher.title": {
+        "message": "Сворачивать лаунчер"
+    },
+    "app.settings.appearance.minimize-launcher.description": {
+        "message": "Сворачивать лаунчер при запуске игры, чтоб не мозолил глаза."
+    },
+    "app.settings.appearance.default-landing-page.title": {
+        "message": "Стартовая страница"
+    },
+    "app.settings.appearance.default-landing-page.description": {
+        "message": "Что открывать при запуске лаунчера."
+    },
+    "app.settings.appearance.default-landing-page.dropdown": {
+        "message": "Выбор страницы"
+    },
+    "app.settings.appearance.select-option": {
+        "message": "Выбери вариант"
+    },
+    "app.settings.appearance.jump-back-into-worlds.title": {
+        "message": "Быстрый возврат"
+    },
+    "app.settings.appearance.jump-back-into-worlds.description": {
+        "message": "Показывать недавние миры на главной, чтоб сразу врываться."
+    },
+    "app.settings.appearance.toggle-sidebar.title": {
+        "message": "Переключение боковой панели"
+    },
+    "app.settings.appearance.toggle-sidebar.description": {
+        "message": "Можно будет сворачивать боковую панель, если тесно."
+    },
+    "app.settings.appearance.page.home": {
+        "message": "Главная"
+    },
+    "app.settings.appearance.page.library": {
+        "message": "Библиотека"
+    },
+    "app.settings.language.title": {
+        "message": "Язык"
+    },
+    "app.settings.privacy.personalized-ads.title": {
+        "message": "Персонализированная реклама"
+    },
+    "app.settings.privacy.personalized-ads.description": {
+        "message": "Aditude будет показывать рекламу под твои интересы. Если отключить, будет просто реклама, без намёков."
+    },
+    "app.settings.privacy.telemetry.title": {
+        "message": "Телеметрия"
+    },
+    "app.settings.privacy.telemetry.description": {
+        "message": "Modrinth собирает анонимные данные, чтобы делать приложение лучше. Если ты параноик, отключи."
+    },
+    "app.settings.privacy.discord-rpc.title": {
+        "message": "Discord RPC"
+    },
+    "app.settings.privacy.discord-rpc.description": {
+        "message": "Показывать в Дискорде, что ты юзаешь Modrinth."
+    },
+    "app.settings.privacy.discord-rpc.note": {
+        "message": "Примечание: моды внутри игры это не отключает. Надо перезапустить лаунчер."
+    },
+    "app.settings.resource.select-directory.title": {
+        "message": "Выбери новую папку для лаунчера"
+    },
+    "app.settings.resource.app-directory.title": {
+        "message": "Папка с лаунчером"
+    },
+    "app.settings.resource.app-directory.description": {
+        "message": "Где лежат все файлы лаунчера. Изменения вступят после перезапуска."
+    },
+    "app.settings.resource.cache.confirm.title": {
+        "message": "Точно очистить кэш?"
+    },
+    "app.settings.resource.cache.confirm.description": {
+        "message": "Если продолжишь, весь кэш снесётся. Лаунчер будет временно тупить, пока всё заново не накачает."
+    },
+    "app.settings.resource.cache.confirm.proceed": {
+        "message": "Очистить"
+    },
+    "app.settings.resource.cache.title": {
+        "message": "Кэш приложения"
+    },
+    "app.settings.resource.cache.description": {
+        "message": "Тут временные файлы для скорости. Очистка поможет, если что-то глючит, но временно всё станет тормозить."
+    },
+    "app.settings.resource.max-downloads.title": {
+        "message": "Максимум одновременных загрузок"
+    },
+    "app.settings.resource.max-downloads.description": {
+        "message": "Сколько файлов качать одновременно. Уменьши, если инет слабый. Надо перезапустить."
+    },
+    "app.settings.resource.max-writes.title": {
+        "message": "Максимум одновременных записей"
+    },
+    "app.settings.resource.max-writes.description": {
+        "message": "Сколько файлов писать на диск сразу. Уменьши, если диск не успевает. Надо перезапустить."
+    },
+    "app.settings.default.window-size.title": {
+        "message": "Размер окна"
+    },
+    "app.settings.default.window-size.fullscreen.title": {
+        "message": "Полноэкранный режим"
+    },
+    "app.settings.default.window-size.fullscreen.description": {
+        "message": "Переписывает options.txt, чтоб игра сразу на весь экран включалась."
+    },
+    "app.settings.default.window-size.width.title": {
+        "message": "Ширина"
+    },
+    "app.settings.default.window-size.width.description": {
+        "message": "Ширина игрового окна при запуске."
+    },
+    "app.settings.default.window-size.width.placeholder": {
+        "message": "Введи ширину..."
+    },
+    "app.settings.default.window-size.height.title": {
+        "message": "Высота"
+    },
+    "app.settings.default.window-size.height.description": {
+        "message": "Высота игрового окна при запуске."
+    },
+    "app.settings.default.window-size.height.placeholder": {
+        "message": "Введи высоту..."
+    },
+    "app.settings.default.memory.title": {
+        "message": "Выделенная память"
+    },
+    "app.settings.default.memory.description": {
+        "message": "Сколько оперативы выделять каждой сборке. Не жалей, но и не перебарщивай."
+    },
+    "app.settings.default.java-args.title": {
+        "message": "Java-аргументы"
+    },
+    "app.settings.default.java-args.placeholder": {
+        "message": "Введи аргументы для Java..."
+    },
+    "app.settings.default.environment.title": {
+        "message": "Переменные окружения"
+    },
+    "app.settings.default.environment.placeholder": {
+        "message": "Введи переменные..."
+    },
+    "app.settings.default.hooks.title": {
+        "message": "Хуки"
+    },
+    "app.settings.default.hooks.pre-launch.title": {
+        "message": "Перед запуском"
+    },
+    "app.settings.default.hooks.pre-launch.description": {
+        "message": "Команда до старта игры."
+    },
+    "app.settings.default.hooks.pre-launch.placeholder": {
+        "message": "Команда перед..."
+    },
+    "app.settings.default.hooks.wrapper.title": {
+        "message": "Обёртка"
+    },
+    "app.settings.default.hooks.wrapper.description": {
+        "message": "Команда-обёртка для запуска."
+    },
+    "app.settings.default.hooks.wrapper.placeholder": {
+        "message": "Команда-обёртка..."
+    },
+    "app.settings.default.hooks.post-exit.title": {
+        "message": "После выхода"
+    },
+    "app.settings.default.hooks.post-exit.description": {
+        "message": "Команда после закрытия игры."
+    },
+    "app.settings.default.hooks.post-exit.placeholder": {
+        "message": "Команда после..."
+    },
+    "app.nav.home": {
+        "message": "Главная"
+    },
+    "app.sidebar.playing-as": {
+        "message": "Играешь как"
+    },
+    "app.sidebar.news": {
+        "message": "Новости"
+    },
+    "app.sidebar.view-all-news": {
+        "message": "Все новости"
+    },
+    "instance.card.stop": {
+        "message": "Стоп"
+    },
+    "instance.card.play": {
+        "message": "Играть"
+    },
+    "instance.card.loading": {
+        "message": "Загрузка..."
+    },
+    "instance.card.installing": {
+        "message": "Установка..."
+    },
+    "instance.card.repair": {
+        "message": "Починить"
+    },
+    "instance.card.played": {
+        "message": "Играл {time}"
+    },
+    "instance.card.never-played": {
+        "message": "Ни разу не играл"
+    },
+    "app.running-bar.offline": {
+        "message": "Офлайн"
+    },
+    "app.running-bar.stop-instance": {
+        "message": "Остановить"
+    },
+    "app.running-bar.view-logs": {
+        "message": "Посмотреть логи"
+    },
+    "app.running-bar.no-instances": {
+        "message": "Ничего не запущено"
+    },
+    "app.running-bar.downloading-java": {
+        "message": "Качаю Java {version}"
+    },
+    "instance.create.header": {
+        "message": "Создание сборки"
+    },
+    "instance.create.select-icon": {
+        "message": "Выбери иконку"
+    },
+    "instance.create.remove-icon": {
+        "message": "Убрать иконку"
+    },
+    "instance.create.name": {
+        "message": "Название"
+    },
+    "instance.create.loader": {
+        "message": "Загрузчик"
+    },
+    "instance.create.game-version": {
+        "message": "Версия игры"
+    },
+    "instance.create.select-game-version": {
+        "message": "Выбери версию игры"
+    },
+    "instance.create.show-all-versions": {
+        "message": "Показать все версии"
+    },
+    "instance.create.loader-version": {
+        "message": "Версия загрузчика"
+    },
+    "instance.create.select-version": {
+        "message": "Выбери версию"
+    },
+    "instance.create.select-loader-version": {
+        "message": "Выбери версию загрузчика"
+    },
+    "instance.create.select-game-before-loader": {
+        "message": "Сначала выбери версию игры, потом загрузчик, не путай."
+    },
+    "instance.create.cancel": {
+        "message": "Отмена"
+    },
+    "instance.create.create": {
+        "message": "Создать"
+    },
+    "instance.create.creating": {
+        "message": "Создание..."
+    },
+    "instance.create.import-from-file": {
+        "message": "Импорт из файла"
+    },
+    "instance.create.drag-and-drop": {
+        "message": "Или просто перетащи .mrpack файл сюда"
+    },
+    "instance.create.launcher-path": {
+        "message": "Путь к {name}"
+    },
+    "instance.create.path-to-launcher": {
+        "message": "Путь к лаунчеру"
+    },
+    "instance.create.profile-name": {
+        "message": "Название профиля"
+    },
+    "instance.create.no-profiles-found": {
+        "message": "Профили не найдены"
+    },
+    "instance.create.importing": {
+        "message": "Импорт..."
+    },
+    "instance.create.import-profiles": {
+        "message": "Импорт {count} профилей"
+    },
+    "instance.create.select-profiles": {
+        "message": "Выбери профили для импорта"
+    },
+    "instance.create.mode.custom": {
+        "message": "своя"
+    },
+    "instance.create.mode.from-file": {
+        "message": "из файла"
+    },
+    "instance.create.mode.import-launcher": {
+        "message": "импорт из лаунчера"
+    },
+    "instance.create.loader-version.stable": {
+        "message": "стабильная"
+    },
+    "instance.create.loader-version.latest": {
+        "message": "последняя"
+    },
+    "instance.create.loader-version.other": {
+        "message": "другая"
+    },
+    "app.restarting": {
+        "message": "Перезапуск..."
+    },
+    "app.nav.worlds": {
+        "message": "Миры"
+    },
+    "app.nav.servers": {
+        "message": "Серверы"
+    },
+    "app.nav.discover-content": {
+        "message": "Найти контент"
+    },
+    "app.nav.skins-beta": {
+        "message": "Скины (бета)"
+    },
+    "app.nav.library": {
+        "message": "Библиотека"
+    },
+    "app.nav.create-instance": {
+        "message": "Создать сборку"
+    },
+    "app.nav.sign-in": {
+        "message": "Войти в Modrinth"
+    },
+    "app.account.menu-title": {
+        "message": "Аккаунт Modrinth"
+    },
+    "app.account.signed-in-as": {
+        "message": "Ты вошёл как"
+    },
+    "app.account.sign-out": {
+        "message": "Выйти"
+    },
+    "app.survey.title": {
+        "message": "Эй, народ!"
+    },
+    "app.survey.body1": {
+        "message": "Ответишь на пару вопросов про Modrinth App?"
+    },
+    "app.survey.body2": {
+        "message": "Это поможет нам сделать приложение ещё лучше (или хотя бы не хуже)."
+    },
+    "app.survey.take": {
+        "message": "Пройти опрос"
+    },
+    "app.survey.no-thanks": {
+        "message": "Не, спасибо"
+    },
+    "browse.discover-content": {
+        "message": "Найти контент"
+    },
+    "browse.hide-installed-content": {
+        "message": "Скрыть установленное"
+    },
+    "browse.install-to-instance": {
+        "message": "Установить в сборку"
+    },
+    "browse.search-placeholder": {
+        "message": "Ищи {projectType}..."
+    },
+    "browse.sort-by": {
+        "message": "Сортировка"
+    },
+    "browse.view": {
+        "message": "Вид"
+    },
+    "browse.offline-message": {
+        "message": "Ты офлайн. Подключись к интернету, чтобы искать на Modrinth."
+    },
+    "browse.open-in-modrinth": {
+        "message": "Открыть на Modrinth"
+    },
+    "browse.copy-link": {
+        "message": "Копировать ссылку"
+    },
+    "skins.delete.title": {
+        "message": "Удалить этот скин?"
+    },
+    "skins.delete.description": {
+        "message": "Скин удалится навсегда. Потом не вернёшь."
+    },
+    "skins.delete.proceed": {
+        "message": "Удалить"
+    },
+    "skins.title": {
+        "message": "Скины"
+    },
+    "skins.change-cape": {
+        "message": "Сменить плащ"
+    },
+    "skins.skin-overrides-cape": {
+        "message": "Текущий скин переопределяет стандартный плащ."
+    },
+    "skins.saved": {
+        "message": "Сохранённые"
+    },
+    "skins.add": {
+        "message": "Добавить"
+    },
+    "skins.edit": {
+        "message": "Изменить"
+    },
+    "skins.delete": {
+        "message": "Удалить"
+    },
+    "skins.default": {
+        "message": "Стандартные"
+    },
+    "skins.signin.title": {
+        "message": "Войди в аккаунт"
+    },
+    "skins.signin.body": {
+        "message": "Войди в Minecraft аккаунт, чтобы менять скины прямо тут."
+    },
+    "skins.slow-down.title": {
+        "message": "Тормози"
+    },
+    "skins.slow-down.skin": {
+        "message": "Слишком часто меняешь скин. Mojang временно заблокировал запросы. Отдохни немного."
+    },
+    "skins.slow-down.cape": {
+        "message": "Слишком часто меняешь плащ. Mojang обиделся. Подожди."
+    },
+    "instance.never-played": {
+        "message": "Ещё не играл"
+    },
+    "instance.installing": {
+        "message": "Установка..."
+    },
+    "instance.repair": {
+        "message": "Починить"
+    },
+    "instance.settings": {
+        "message": "Настройки"
+    },
+    "instance.export-modpack": {
+        "message": "Экспорт модпака"
+    },
+    "instance.tabs.content": {
+        "message": "Контент"
+    },
+    "instance.tabs.worlds": {
+        "message": "Миры"
+    },
+    "instance.tabs.logs": {
+        "message": "Логи"
+    },
+    "library.tabs.all": {
+        "message": "Все"
+    },
+    "library.tabs.downloaded": {
+        "message": "Скачанные"
+    },
+    "library.tabs.custom": {
+        "message": "Свои"
+    },
+    "library.tabs.shared": {
+        "message": "Поделились"
+    },
+    "library.tabs.saved": {
+        "message": "Сохранённые"
+    },
+    "library.empty.no-instances": {
+        "message": "Сборок пока нет, создай первую!"
+    },
+    "instance.content.search-projects": {
+        "message": "Поиск по {count} проектам..."
+    },
+    "instance.content.share.project-names": {
+        "message": "Названия проектов"
+    },
+    "instance.content.share.file-names": {
+        "message": "Имена файлов"
+    },
+    "instance.content.share.project-links": {
+        "message": "Ссылки на проекты"
+    },
+    "instance.content.share.markdown-links": {
+        "message": "Markdown-ссылки"
+    },
+    "instance.content.update-all": {
+        "message": "Обновить всё"
+    },
+    "instance.content.update-pack": {
+        "message": "Обновить пак"
+    },
+    "instance.content.empty": {
+        "message": "В этой сборке пока нет контента."
+    },
+    "instance.content.share.title": {
+        "message": "Поделиться сборкой"
+    },
+    "instance.content.share.text": {
+        "message": "Смотри, что я юзаю в этой сборке!"
+    },
+    "common.edit": {
+        "message": "Изменить"
+    },
+    "common.sign-in": {
+        "message": "Войти"
+    },
+    "common.update": {
+        "message": "Обновить"
+    },
+    "common.remove": {
+        "message": "Удалить"
+    },
+    "common.refresh": {
+        "message": "Обновить"
+    },
+    "common.show-file": {
+        "message": "Показать файл"
+    },
+    "common.copy-link": {
+        "message": "Копировать ссылку"
+    },
+    "common.open-folder": {
+        "message": "Открыть папку"
+    },
+    "common.stop": {
+        "message": "Стоп"
+    },
+    "common.play": {
+        "message": "Играть"
+    },
+    "common.loading": {
+        "message": "Загрузка..."
+    },
+    "library.group.loader": {
+        "message": "Загрузчик"
+    },
+    "library.group.game-version": {
+        "message": "Версия игры"
+    },
+    "library.delete-instance.title": {
+        "message": "Удалить эту сборку?"
+    },
+    "library.instances": {
+        "message": "Сборки"
+    },
+    "home.welcome-back": {
+        "message": "О, здорово, петушара! С возвращением в нашу лаунчер-петушарню! Заждались уже, нахуй!"
+    },
+    "common.select": {
+        "message": "Выбери..."
+    },
+    "browse.tabs.modpacks": {
+        "message": "Модпаки"
+    },
+    "browse.tabs.shaders": {
+        "message": "Шейдеры"
+    },
+    "browse.tabs.data-packs": {
+        "message": "Датапаки"
+    },
+    "library.sort.name": {
+        "message": "Имя"
+    },
+    "home.jump-back-in": {
+        "message": "Вернуться в миры"
+    },
+    "browse.tabs.mods": {
+        "message": "Моды"
+    },
+    "library.group.none": {
+        "message": "Нет"
+    },
+    "common.copy-path": {
+        "message": "Копировать путь"
+    },
+    "library.sort.date-created": {
+        "message": "Дата создания"
+    },
+    "library.view-instance": {
+        "message": "Открыть"
+    },
+    "library.sort.last-played": {
+        "message": "Последний запуск"
+    },
+    "browse.tabs.resource-packs": {
+        "message": "Ресурспаки"
+    },
+    "common.add-content": {
+        "message": "Добавить контент"
+    },
+    "common.search": {
+        "message": "Поиск"
+    },
+    "library.group-by": {
+        "message": "Группировать по"
+    },
+    "home.discover-mods": {
+        "message": "Найти моды"
+    },
+    "common.sort-by": {
+        "message": "Сортировать по"
+    },
+    "library.delete-instance.description": {
+        "message": "Если продолжишь, все данные сборки сгорят в аду без права восстановления. Ты уверен, мужик?"
+    },
+    "library.duplicate-instance": {
+        "message": "Клонировать"
+    },
+    "library.sort.date-modified": {
+        "message": "Дата изменения"
+    },
+    "home.welcome-to-app": {
+        "message": "Добро пожаловать в петушарню Modrinth!"
+    },
+    "common.delete": {
+        "message": "Удалить"
+    },
+    "home.discover-modpack": {
+        "message": "Найти модпак"
+    },
+    "library.group.group": {
+        "message": "Группа"
+    },
+    "library.sort.game-version": {
+        "message": "Версия игры"
+    }
+}

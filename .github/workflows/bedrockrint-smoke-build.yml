@@ -41,6 +41,9 @@ jobs:
       - name: Prepare app environment
         run: cp packages/app-lib/.env.staging packages/app-lib/.env
 
+      - name: Fix Gradle wrapper permissions
+        run: chmod +x packages/app-lib/java/gradlew
+
       - name: Build app frontend
         run: pnpm --filter=@modrinth/app-frontend build
 

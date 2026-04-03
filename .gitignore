@@ -1,70 +1,78 @@
-# Rust / Cargo
-target/
-**/target/
-Cargo.lock
+# See http://help.github.com/ignore-files/ for more about ignoring files.
 
-# Node / PNPM / Turbo / Frontend
-node_modules/
-**/node_modules/
-.pnpm-store/
-.pnpm-store-local/
-.npm/
-.yarn/
-.turbo/
-**/.turbo/
-dist/
-**/dist/
-.vite/
-**/.vite/
-coverage/
-**/coverage/
+# compiled output
+dist
+tmp
+/out-tsc
 
-# Build artifacts / caches
-*.log
-*.tmp
-*.cache
-.cache/
-**/.cache/
-tmp/
-**/tmp/
+# dependencies
+node_modules
 
-# Tauri / packaged outputs
-**/src-tauri/target/
-**/bundle/
-**/gen/schemas/
-code-0.10.27/tools/gdk-helper/bin/
-code-0.10.27/tools/gdk-helper/obj/
+# IDEs and editors
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
-# OS / editor
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IDE - IntelliJ
+.idea/*
+!.idea/code.iml
+!.idea/gradle.xml
+!.idea/icon.svg
+!.idea/modules.xml
+!.idea/vcs.xml
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
 .DS_Store
 Thumbs.db
-.vscode/
-.idea/
 
-# Local research / backups / external source drops (do not publish)
-ATLauncher-3.4.40.2/
-BedrockLauncher-2025.8.25.24/
-BedrockLauncher.Core-2.0-main/
-Better-Minecraft-Bedrock-Launcher*/
-MCBE.GDK.Switcher-1.1.0/
-Pyroclastic-1.1.0/
-astralrinth/
-bedrock-cli/
-bedrock modringth integration 2/
-bedrock modringth integration NEW/
-gdk-offline-install-feature/
-mc-w10-version-launcher-0.6.1/
-minotaur-2.8.10/
-onix_compatible_appx-1.26.0/
-code-0.10.27 — копия/
-_backup*/
-_tmp*/
-*.zip
-_cik_keys/
-code-0.10.27_patch_backup_*/
-minecraft Bedrock Edition замена файлов/
-*ПОЛНОЕ ВХОЖДЕНИЕ.txt
-*МЕХАНИЗМ РАБОТЫ.txt
-*master (2).txt
-_tmp_*
-code-0.10.27/zzz_write_test/
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+
+# frontend generated files
+apps/frontend/src/generated
+
+.turbo
+target
+generated
+.env
+
+# app testing dir
+app-playground-data/*
+
+.astro
+.claude
+
+# labrinth demo fixtures
+apps/labrinth/fixtures/demo
+
+*storybook.log
+storybook-static
+
+.wrangler/
+
+# frontend robots.txt
+apps/frontend/src/public/robots.txt

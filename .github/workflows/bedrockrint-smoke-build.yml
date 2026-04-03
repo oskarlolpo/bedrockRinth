@@ -7,7 +7,7 @@ on:
 
 jobs:
   smoke-build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     env:
       FORCE_COLOR: 3
@@ -15,11 +15,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Install Linux build dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -yq libwebkit2gtk-4.1-dev libayatana-appindicator3-dev librsvg2-dev
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
@@ -39,10 +34,14 @@ jobs:
         run: pnpm install --no-frozen-lockfile
 
       - name: Prepare app environment
-        run: cp packages/app-lib/.env.staging packages/app-lib/.env
+        run: Copy-Item packages/app-lib/.env.staging packages/app-lib/.env
 
       - name: Fix Gradle wrapper permissions
-        run: chmod +x packages/app-lib/java/gradlew
+        shell: bash
+        run: |
+          if [ -f packages/app-lib/java/gradlew ]; then
+            chmod +x packages/app-lib/java/gradlew
+          fi
 
       - name: Build app frontend
         run: pnpm --filter=@modrinth/app-frontend build
